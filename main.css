@@ -171,14 +171,27 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#followus ul li{
-    display:inline-block;
+#followus{
+    display:flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    padding: 20px;
     font-size: 50px;
     color: beige;
+    box-sizing: border-box;
 }
 
-#followus li :hover{
-    color: #F3EFE0;
+#followus ul{
+    display: flex;
+    list-style: none;
+
+}
+
+#followus a{
+    padding: 20px;
+    color: white;
+
+}
+#followus a:hover{
+       color: #FFB100;
 }
