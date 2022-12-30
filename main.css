@@ -13,14 +13,14 @@
 
 
 body{
-    background-color: #f7d88f;
+    background-color: #6B728E;
     background-size: cover;
    
 }
 #menu{
     
    border-radius: 20px 20px 0px 0px;
-    background-color: #22A39F;
+    background-color: #474E68;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
 }
@@ -42,15 +42,19 @@ body{
     display: inline-block;
     font-size: 15px;
     text-decoration: none;
-    color: #434242;
+    color: white;
     
 }
 
 #menu li:hover{
-    background-color:#F3EFE0;
-    opacity: 0.7;
+    background-color:white;
     
     
+    
+}
+
+#menu a:hover{
+    color: #474E68;;
 }
 
 
@@ -74,9 +78,12 @@ body{
   display: inline-block;
   border-radius: 15px;
   border: 2px solid #FFB100;;
-  
+  cursor: pointer;
+  }
 
-}
+  #download:hover{
+    background-color: #FFB100;
+  }
 
 #download1{
     background-color: #FFB100;
@@ -89,10 +96,11 @@ body{
   border-radius: 15px;
   border: 2px solid #FFB100;;
  margin-right: 5px;
+ cursor: pointer;
 }
 
 #portfolio{
-    background-color: #434242;
+    background-color: transparent;
     color: white;
     font-size: 15px;
     padding: 12px 20px;
@@ -101,7 +109,11 @@ body{
   display: inline-block;
   border-radius: 15px;
   border: 2px solid #FFB100;;
+  cursor: pointer;
+}
 
+#portfolio:hover{
+    background-color:#FFB100 ;
 }
 
 
@@ -109,7 +121,7 @@ body{
     
     height: 600px;
     width: 300px;
-    background-color: #434242;
+    background-color: #404258;
     float: left;
     border-radius: 0px 0px 0px 20px;
 }
@@ -118,7 +130,7 @@ body{
     
     height: 600px;
     width: 700px;
-    background-color: #434242;
+    background-color: #404258;
     float: right;
     border-radius: 0px 0px 20px 0px
 }
@@ -164,7 +176,7 @@ body{
 #footer{
     height: 200px;
     width: 1000px;
-    background-color: #222222;
+    background-color: #404258;
     border-radius: 20px;
     margin-top: 20px;
     color: #EB455F;
